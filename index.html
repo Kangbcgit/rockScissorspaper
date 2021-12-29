@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- custom js -->
+    <script src="app.js" defer></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="main clearfix">
+            <h1 id="rock-paper-scissors">가위! 바위! 보!</h1>
+            <div class="score-reset-board clearfix">
+                <div class="score">
+                    <div class="player-computer">Player vs Computer</div>
+                    <div class="score-board"><em id="player-score">0</em> : <em id="computer-score">0</em></div>
+                </div>
+                <div class="averaging">10 = 3win -> 
+                    <em id="luck-stack">0</em>
+                </div>
+                <div class="reset">RESET</div>
+            </div>
+            <div class="game-result clearfix">
+                <div class="player-game rock">
+                    <p>Player</p>
+                </div>
+                <div class="computer-game rock">
+                    <p>computer</p>
+                </div>
+            </div>
+
+            <div class="choice clearfix">
+                <div id="rock">
+                    <!-- <img src="img/rock.png" /> -->
+                </div>
+                <div id="paper">
+                    <!-- <img src="img/paper.png" /> -->
+                </div>
+                <div id="scissors">
+                    <!-- <img src="img/scissors.png" /> -->
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
